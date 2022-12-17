@@ -1,0 +1,42 @@
+
+.App{
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Parrafo{
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #454545;
+  padding: 1px
+
+ }
+
+.inner{
+ display: flex;
+}
+
+.item{
+  min-height: 100px;
+  min-width: 300px; 
+  padding: 75px;
+}
+
+.item img{
+  width: 70%;
+  height: 60%;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
+
